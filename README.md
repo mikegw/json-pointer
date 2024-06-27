@@ -6,11 +6,11 @@ A bare-bones implementation of [RFC 6901](https://datatracker.ietf.org/doc/html/
 
 Install the gem and add to the application's Gemfile by executing:
 
-    $ bundle add json-pointer --source mikegw/json-pointer
+    $ bundle add json-pointer --github mikegw/json-pointer
 
 or add the following to your gemfile:
 
-    $ gem 'json-pointer', source: 'mikegw/json-pointer'
+    $ gem 'json-pointer', github: 'mikegw/json-pointer'
 
 ## Usage
 
