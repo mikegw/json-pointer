@@ -56,8 +56,8 @@ module JSON
       @reference_tokens = escaped_tokens.map { build_token(_1) }
     end
 
-    def each(&)
-      reference_tokens.each(&)
+    def each(&block)
+      reference_tokens.each(&block)
     end
 
     alias to_a reference_tokens
