@@ -32,6 +32,10 @@ module JSON
 
     def initialize: (untyped raw) -> void
 
+    def each: () { (ReferenceToken) -> void } -> Array[ReferenceToken]
+
+    alias to_a reference_tokens
+
     private
 
     def build_token: (String escaped) -> ReferenceToken
