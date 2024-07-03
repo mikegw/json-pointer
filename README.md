@@ -1,4 +1,4 @@
-# JSON::Pointer
+# JSON::Pointer [![Ruby](https://github.com/mikegw/json-pointer/actions/workflows/main.yml/badge.svg)](https://github.com/mikegw/json-pointer/actions/workflows/main.yml) [![GitHub version](https://badge.fury.io/gh/mikegw%2Fjson-pointer.svg)](https://badge.fury.io/gh/mikegw%2Fjson-pointer)
 
 A bare-bones implementation of [RFC 6901](https://datatracker.ietf.org/doc/html/rfc6901).
 
